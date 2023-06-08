@@ -13,6 +13,6 @@ E:\Project for Git\Git_Project\Git Project\Git_header.h(227,25): warning C4244: 
 E:\Project for Git\Git_Project\Git Project\Git_header.h(227,21): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
 E:\Project for Git\Git_Project\Git Project\Git_header.h(228,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
 E:\Project for Git\Git_Project\Git Project\Git_header.h(228,22): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
-E:\Project for Git\Git_Project\Git Project\Source.cpp(13,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\Project for Git\Git_Project\Git Project\Source.cpp(16,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
 E:\Project for Git\Git_Project\Git Project\Git_header.h(31): warning C4715: Fibo: значение возвращается не при всех путях выполнения
   Git Project.vcxproj -> E:\Project for Git\Git_Project\x64\Debug\Git Project.exe
