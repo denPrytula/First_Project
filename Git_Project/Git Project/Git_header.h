@@ -189,7 +189,7 @@ int MaxArr2(int** arr, int size1, int size2) {
 }
 
 
-void Revers(int* p, int size) {
+void ReversArr(int* p, int size) {
 	for (int i = 0; i < size; i++)
 	{
 		cout << *(p + size - i - 1) << " ";
@@ -197,7 +197,24 @@ void Revers(int* p, int size) {
 	cout << endl;
 }
 
-
+void CopyArr(int* arr, int* arr2,int size) {
+	for (int i = 0;i < size; i++) {
+		arr2[i] = arr[i];
+	}
+	for (int i = 0;i < size; i++) {
+		cout << arr2[i] << ' ';
+	}
+}
+void CopyReversArr(int* arr, int* arr2, int size) {
+	for (int i = 0;i < size; i++) {
+		arr2[i] = arr[i];
+	}
+	for (int i = 0; i < size; i++)
+	{
+		cout << *(arr2 + size - i - 1) << " ";
+	}
+	cout << endl;
+}
 
 float Summ(float a, float b) {
 	return(a + b);
